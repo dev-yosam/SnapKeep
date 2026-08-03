@@ -1,0 +1,39 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+!default.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage (not used, kept for safety)
+Pods/
+Carthage/Build/
+
+# macOS
+.DS_Store
+
+# Simulator / device data
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local app data exports (never commit real receipt data)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+ExportedData/
